@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS pics (
+CREATE TABLE IF NOT EXISTS iamalive (
         id SERIAL,
-        name VARCHAR(25)
+        namepic VARCHAR(25)
 );

@@ -12,6 +12,6 @@ public enum Actions {
     }
 
     public SendMessage doCommand(long chat_id, String action){
-        return executor.doKeyboard(chat_id, action);
+        return executor.sendInlineKeyBoard(chat_id, action);
     }
 }
