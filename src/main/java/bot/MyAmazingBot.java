@@ -86,11 +86,13 @@ public class MyAmazingBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "Croft-Weather Jv";
+       // return "Croft-Weather Jv";
+        return System.getenv("username");
     }
 
     @Override
     public String getBotToken() {
-        return "927128344:AAHDCEqzqOmWFftPl8PzNlWWilp-iGU9y0w";
+        //return "927128344:AAHDCEqzqOmWFftPl8PzNlWWilp-iGU9y0w";
+        return System.getenv("token");
     }
 }
